@@ -48,32 +48,49 @@
       <li class="second_menu_item">Rīga Jūrmala</li>
       <li class="second_menu_item">Labs kino</li>
     </ul>
-  </div>
-  </div>
-<div id="header">
-  <div class="tab-wrap">
-      <input type="radio" id="tab1" name="tabGroup1" class="tab" checked>
-      <label for="tab1">Short</label>
-
-      <input type="radio" id="tab2" name="tabGroup1" class="tab">
-      <label for="tab2">Medium</label>
-
-      <input type="radio" id="tab3" name="tabGroup1" class="tab">
-      <label for="tab3">Long</label>
-
-      <div class="tab__content">
-          TAB ONE CONTENT
-      </div>
-      <div class="tab__content">
-        TAB Two CONTENT
-      </div>
-      <div class="tab__content">
-        TAB THREE CONTENT
-      </div>
-  </div>
-</div>
+  </div></div>
 
   <div id="saturs">
+
+<h3>Fade in Tabs</h3>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+</div>
+
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+   
   </div>
 
 <div id="contact">

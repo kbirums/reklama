@@ -1,5 +1,8 @@
-
-body {font-family: Arial;}
+* {
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica;
+    object-fit: cover;
+}
 
 /* Style the tab */
 .tab {

@@ -48,3 +48,8 @@ body {font-family: Arial;}
   from {opacity: 0;}
   to {opacity: 1;}
 }
+
+#menu{
+    display: inline-flex;
+    list-style-type: none;
+}

@@ -80,8 +80,8 @@ img {
   border-right: none;
 }
 .saturs{
-  [position: relative
-  height:300px;]
+    height: 200px;
+    overflow: hidden;
 }
 .logo{
   width: 200px;

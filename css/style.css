@@ -49,7 +49,7 @@ body {font-family: Arial;}
   to {opacity: 1;}
 }
 
-#menu{
+.menu{
     display: inline-flex;
     list-style-type: none;
 }

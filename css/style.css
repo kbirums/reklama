@@ -79,7 +79,8 @@ img {
 .main_menu_item:last-child{
   border-right: none;
 }
-.saturs{
+.saturaizvelne{
+  position: relative;
     height: 200px;
     overflow: hidden;
 }

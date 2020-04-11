@@ -68,10 +68,16 @@ img {
     display: inline-flex;
     list-style-type: none;
 }
-.main_menu_item{
-  font-size: 22px;
-border-right: 1px solid grey;
-padding: 0 10px;
+.main_menu_item {
+    font-size: 20px;
+    border-right: 1px solid grey;
+    padding: 0 10px;
+}
+.main_menu_item:nth-child(1) {
+    padding: 0 10px 0 0 ;
+}
+.main_menu_item:last-child{
+  border-right: none;
 }
 .saturs{
   [position: relative

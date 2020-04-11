@@ -53,3 +53,8 @@ body {font-family: Arial;}
     display: inline-flex;
     list-style-type: none;
 }
+.main_menu_item{
+  font-size: 22px;
+border-right: 1px solid grey;
+padding: 0 10px;
+}

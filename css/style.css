@@ -1,7 +1,16 @@
 * {
     box-sizing: border-box;
     font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica;
+    margin:0;
+    padding:0;
+}
+html{
+  background:   whitesmoke;
+}
+img {
     object-fit: cover;
+    width: 100%;
+    object-position: center;
 }
 
 /* Style the tab */
